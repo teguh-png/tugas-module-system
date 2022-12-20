@@ -1,4 +1,4 @@
-class Table {
+export class table {
     constructor(init) {
       this.init = init;
     }
@@ -42,16 +42,4 @@ class Table {
     }
   }
   
-  const table = new Table({
-    columns: ["NIM","Nama Mahasiswa", "Email", "Alamat"],
-    data: [
-      ["123","Teguh Firmansyah", "teguh.firmansyah@gmail.com","Makassar"],
-      ["124","Muhammad Adam", "m.adam.gmail.com","Makassar"],
-      ["125","Andika Saputra", "andika@gmail.com","Makassar"],
-      ["126","Budi","budi@gmail.com","Palu"]
-    ]
-  });
-  const app = document.getElementById("app");
-  table.render(app);
-
-  export {table};
+  
