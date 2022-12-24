@@ -1,3 +1,3 @@
-import { module } from "./module.js";
+import { Table } from "./Table.js";
 
-module;
+Table;
